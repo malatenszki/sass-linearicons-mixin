@@ -1,0 +1,542 @@
+@mixin linearIcons($content, $direction: "before", $margin: 0) {
+  @if $content=="home" {
+    $content: "\e800";
+  }
+  @if $content=="apartment" {
+    $content: "\e801";
+  }
+  @if $content=="pencil" {
+    $content: "\e802";
+  }
+  @if $content=="magic-wand" {
+    $content: "\e803";
+  }
+  @if $content=="drop" {
+    $content: "\e804";
+  }
+  @if $content=="lighter" {
+    $content: "\e805";
+  }
+  @if $content=="poop" {
+    $content: "\e806";
+  }
+  @if $content=="sun" {
+    $content: "\e807";
+  }
+  @if $content=="moon" {
+    $content: "\e808";
+  }
+  @if $content=="cloud" {
+    $content: "\e809";
+  }
+  @if $content=="cloud-upload" {
+    $content: "\e80a";
+  }
+  @if $content=="cloud-download" {
+    $content: "\e80b";
+  }
+  @if $content=="cloud-sync" {
+    $content: "\e80c";
+  }
+  @if $content=="cloud-check" {
+    $content: "\e80d";
+  }
+  @if $content=="database" {
+    $content: "\e80e";
+  }
+  @if $content=="lock" {
+    $content: "\e80f";
+  }
+  @if $content=="cog" {
+    $content: "\e810";
+  }
+  @if $content=="trash" {
+    $content: "\e811";
+  }
+  @if $content=="dice" {
+    $content: "\e812";
+  }
+  @if $content=="heart" {
+    $content: "\e813";
+  }
+  @if $content=="star" {
+    $content: "\e814";
+  }
+  @if $content=="star-half" {
+    $content: "\e815";
+  }
+  @if $content=="star-empty" {
+    $content: "\e816";
+  }
+  @if $content=="flag" {
+    $content: "\e817";
+  }
+  @if $content=="envelope" {
+    $content: "\e818";
+  }
+  @if $content=="paperclip" {
+    $content: "\e819";
+  }
+  @if $content=="inbox" {
+    $content: "\e81a";
+  }
+  @if $content=="eye" {
+    $content: "\e81b";
+  }
+  @if $content=="printer" {
+    $content: "\e81c";
+  }
+  @if $content=="file-empty" {
+    $content: "\e81d";
+  }
+  @if $content=="file-add" {
+    $content: "\e81e";
+  }
+  @if $content=="enter" {
+    $content: "\e81f";
+  }
+  @if $content=="exit" {
+    $content: "\e820";
+  }
+  @if $content=="graduation-hat" {
+    $content: "\e821";
+  }
+  @if $content=="license" {
+    $content: "\e822";
+  }
+  @if $content=="music-note" {
+    $content: "\e823";
+  }
+  @if $content=="film-play" {
+    $content: "\e824";
+  }
+  @if $content=="camera-video" {
+    $content: "\e825";
+  }
+  @if $content=="camera" {
+    $content: "\e826";
+  }
+  @if $content=="picture" {
+    $content: "\e827";
+  }
+  @if $content=="book" {
+    $content: "\e828";
+  }
+  @if $content=="bookmark" {
+    $content: "\e829";
+  }
+  @if $content=="user" {
+    $content: "\e82a";
+  }
+  @if $content=="users" {
+    $content: "\e82b";
+  }
+  @if $content=="shirt" {
+    $content: "\e82c";
+  }
+  @if $content=="store" {
+    $content: "\e82d";
+  }
+  @if $content=="cart" {
+    $content: "\e82e";
+  }
+  @if $content=="tag" {
+    $content: "\e82f";
+  }
+  @if $content=="phone-handset" {
+    $content: "\e830";
+  }
+  @if $content=="phone" {
+    $content: "\e831";
+  }
+  @if $content=="pushpin" {
+    $content: "\e832";
+  }
+  @if $content=="map-marker" {
+    $content: "\e833";
+  }
+  @if $content=="map" {
+    $content: "\e834";
+  }
+  @if $content=="location" {
+    $content: "\e835";
+  }
+  @if $content=="calendar-full" {
+    $content: "\e836";
+  }
+  @if $content=="keyboard" {
+    $content: "\e837";
+  }
+  @if $content=="spell-check" {
+    $content: "\e838";
+  }
+  @if $content=="screen" {
+    $content: "\e839";
+  }
+  @if $content=="smartphone" {
+    $content: "\e83a";
+  }
+  @if $content=="tablet" {
+    $content: "\e83b";
+  }
+  @if $content=="laptop" {
+    $content: "\e83c";
+  }
+  @if $content=="laptop-phone" {
+    $content: "\e83d";
+  }
+  @if $content=="power-switch" {
+    $content: "\e83e";
+  }
+  @if $content=="bubble" {
+    $content: "\e83f";
+  }
+  @if $content=="heart-pulse" {
+    $content: "\e840";
+  }
+  @if $content=="construction" {
+    $content: "\e841";
+  }
+  @if $content=="pie-chart" {
+    $content: "\e842";
+  }
+  @if $content=="chart-bars" {
+    $content: "\e843";
+  }
+  @if $content=="gift" {
+    $content: "\e844";
+  }
+  @if $content=="diamond" {
+    $content: "\e845";
+  }
+  @if $content=="linearicons" {
+    $content: "\e846";
+  }
+  @if $content=="dinner" {
+    $content: "\e847";
+  }
+  @if $content=="coffee-cup" {
+    $content: "\e848";
+  }
+  @if $content=="leaf" {
+    $content: "\e849";
+  }
+  @if $content=="paw" {
+    $content: "\e84a";
+  }
+  @if $content=="rocket" {
+    $content: "\e84b";
+  }
+  @if $content=="briefcase" {
+    $content: "\e84c";
+  }
+  @if $content=="bus" {
+    $content: "\e84d";
+  }
+  @if $content=="car" {
+    $content: "\e84e";
+  }
+  @if $content=="train" {
+    $content: "\e84f";
+  }
+  @if $content=="bicycle" {
+    $content: "\e850";
+  }
+  @if $content=="wheelchair" {
+    $content: "\e851";
+  }
+  @if $content=="select" {
+    $content: "\e852";
+  }
+  @if $content=="earth" {
+    $content: "\e853";
+  }
+  @if $content=="smile" {
+    $content: "\e854";
+  }
+  @if $content=="sad" {
+    $content: "\e855";
+  }
+  @if $content=="neutral" {
+    $content: "\e856";
+  }
+  @if $content=="mustache" {
+    $content: "\e857";
+  }
+  @if $content=="alarm" {
+    $content: "\e858";
+  }
+  @if $content=="bullhorn" {
+    $content: "\e859";
+  }
+  @if $content=="volume-high" {
+    $content: "\e85a";
+  }
+  @if $content=="volume-medium" {
+    $content: "\e85b";
+  }
+  @if $content=="olume-low" {
+    $content: "\e85c";
+  }
+  @if $content=="volume" {
+    $content: "\e85d";
+  }
+  @if $content=="mic" {
+    $content: "\e85e";
+  }
+  @if $content=="hourglass" {
+    $content: "\e85f";
+  }
+  @if $content=="undo" {
+    $content: "\e860";
+  }
+  @if $content=="redo" {
+    $content: "\e861";
+  }
+  @if $content=="sync" {
+    $content: "\e862";
+  }
+  @if $content=="history" {
+    $content: "\e863";
+  }
+  @if $content=="clock" {
+    $content: "\e864";
+  }
+  @if $content=="download" {
+    $content: "\e865";
+  }
+  @if $content=="upload" {
+    $content: "\e866";
+  }
+  @if $content=="enter-down" {
+    $content: "\e867";
+  }
+  @if $content=="exit-up" {
+    $content: "\e868";
+  }
+  @if $content=="bug" {
+    $content: "\e869";
+  }
+  @if $content=="code" {
+    $content: "\e86a";
+  }
+  @if $content=="link" {
+    $content: "\e86b";
+  }
+  @if $content=="unlink" {
+    $content: "\e86c";
+  }
+  @if $content=="thumbs-up" {
+    $content: "\e86d";
+  }
+  @if $content=="thumbs-down" {
+    $content: "\e86e";
+  }
+  @if $content=="magnifier" {
+    $content: "\e86f";
+  }
+  @if $content=="cross" {
+    $content: "\e870";
+  }
+  @if $content=="menu" {
+    $content: "\e871";
+  }
+  @if $content=="list" {
+    $content: "\e872";
+  }
+  @if $content=="chevron-up" {
+    $content: "\e873";
+  }
+  @if $content=="chevron-down" {
+    $content: "\e874";
+  }
+  @if $content=="chevron-left" {
+    $content: "\e875";
+  }
+  @if $content=="chevron-right" {
+    $content: "\e876";
+  }
+  @if $content=="arrow-up" {
+    $content: "\e877";
+  }
+  @if $content=="arrow-down" {
+    $content: "\e878";
+  }
+  @if $content=="arrow-left" {
+    $content: "\e879";
+  }
+  @if $content=="arrow-right" {
+    $content: "\e87a";
+  }
+  @if $content=="move" {
+    $content: "\e87b";
+  }
+  @if $content=="warning" {
+    $content: "\e87c";
+  }
+  @if $content=="question-circle" {
+    $content: "\e87d";
+  }
+  @if $content=="menu-circle" {
+    $content: "\e87e";
+  }
+  @if $content=="checkmark-circle" {
+    $content: "\e87f";
+  }
+  @if $content=="cross-circle" {
+    $content: "\e880";
+  }
+  @if $content=="plus-circle" {
+    $content: "\e881";
+  }
+  @if $content=="circle-minus" {
+    $content: "\e882";
+  }
+  @if $content=="arrow-up-circle" {
+    $content: "\e883";
+  }
+  @if $content=="arrow-down-circle" {
+    $content: "\e884";
+  }
+  @if $content=="arrow-left-circle" {
+    $content: "\e885";
+  }
+  @if $content=="arrow-right-circle" {
+    $content: "\e886";
+  }
+  @if $content=="chevron-up-circle" {
+    $content: "\e887";
+  }
+  @if $content=="chevron-down-circle" {
+    $content: "\e888";
+  }
+  @if $content=="chevron-left-circle" {
+    $content: "\e889";
+  }
+  @if $content=="chevron-right-circle" {
+    $content: "\e88a";
+  }
+  @if $content=="crop" {
+    $content: "\e88b";
+  }
+  @if $content=="frame-expand" {
+    $content: "\e88c";
+  }
+  @if $content=="frame-contract" {
+    $content: "\e88d";
+  }
+  @if $content=="layers" {
+    $content: "\e88e";
+  }
+  @if $content=="funnel" {
+    $content: "\e88f";
+  }
+  @if $content=="text-format" {
+    $content: "\e890";
+  }
+  @if $content=="text-format-remove" {
+    $content: "\e891";
+  }
+  @if $content=="text-size" {
+    $content: "\e892";
+  }
+  @if $content=="bold" {
+    $content: "\e893";
+  }
+  @if $content=="italic" {
+    $content: "\e894";
+  }
+  @if $content=="underline" {
+    $content: "\e895";
+  }
+  @if $content=="strikethrough" {
+    $content: "\e896";
+  }
+  @if $content=="highlight" {
+    $content: "\e897";
+  }
+  @if $content=="text-align-left" {
+    $content: "\e898";
+  }
+  @if $content=="text-align-center" {
+    $content: "\e899";
+  }
+  @if $content=="text-align-right" {
+    $content: "\e89a";
+  }
+  @if $content=="text-align-justify" {
+    $content: "\e89b";
+  }
+  @if $content=="line-spacing" {
+    $content: "\e89c";
+  }
+  @if $content=="indent-increase" {
+    $content: "\e89d";
+  }
+  @if $content=="indent-decrease" {
+    $content: "\e89e";
+  }
+  @if $content=="pilcrow" {
+    $content: "\e89f";
+  }
+  @if $content=="direction-ltr" {
+    $content: "\e8a0";
+  }
+  @if $content=="direction-rtl" {
+    $content: "\e8a1";
+  }
+  @if $content=="page-break" {
+    $content: "\e8a2";
+  }
+  @if $content=="sort-alpha-asc" {
+    $content: "\e8a3";
+  }
+  @if $content=="sort-amount-asc" {
+    $content: "\e8a4";
+  }
+  @if $content=="hand" {
+    $content: "\e8a5";
+  }
+  @if $content=="pointer-up" {
+    $content: "\e8a6";
+  }
+  @if $content=="pointer-right" {
+    $content: "\e8a7";
+  }
+  @if $content=="pointer-down" {
+    $content: "\e8a8";
+  }
+  @if $content=="pointer-left" {
+    $content: "\e8a9";
+  }
+  @if $direction=="before" {
+    &:before {
+      font-family: $linearicons-free;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: $content;
+      margin: $margin;
+    }
+  }
+  @else {
+    &:after {
+      font-family: $linearicons-free;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: $content;
+      margin: $margin;
+    }
+  }
+}

@@ -1,15 +1,16 @@
-// With NPM, you need to use 'npm install font-awesome' to install the Node module.
-// https://www.npmjs.com/package/font-awesome
+// With NPM, you need to use 'npm install linearicons' to install the Node module.
+https://www.npmjs.com/package/linearicons
+
 @import "path/to/node-modules/linearicons/dist/web-font/style.css";
 @import "typography.scss"
 @import "mixin.scss";
 
-.custom-icon {
+.custom-selector {
   /*If You want to use Home icon on after element, with margin*/
   @include linearIcons(home, after, 0 5px);
 }
 
-.secondary-custom-icon {
+.secondary-custom-selector {
   /*If You want to use Star icon on before element, without margin*/
   @include linearIcons(star);
 }
